@@ -1,0 +1,128 @@
+
+.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+
+  .price {
+    color: grey;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif
+  }
+
+button {
+    background-color:#18ab29;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+
+  }
+
+button:hover {
+    background-color:white;
+    color: #18ab29
+
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+th, td {
+    width:150px;
+    text-align:center;
+    border:none;
+    padding:30px
+
+}
+
+img {
+    width: 200px;
+    border: 0.1px solid rgb(179, 179, 179);
+  }
+
+body{
+    color: rgb(97, 97, 97)
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #ffffff;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+  }
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: rgb(97, 97, 97);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+    word-spacing: 50px
+  }
+
+  .topnav a:hover {
+    border-bottom: 3px solid #18ab29;
+  }
+
+  .topnav a.active {
+    border-bottom: 3px solid #18ab29;
+  }
+
+  .why h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #18ab29
+  }
+
+  .why {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 100px
+  }
+
+  .mission h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #18ab29
+
+  }
+
+
+  .mission{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+
+  }
+
+
+  .vision h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #18ab29
+  }
+
+  .vision{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 100px
+  }
+
+image{
+    max-width: 100%;
+    height: auto;
+    left: 0px;
+    right: 0px;
+}
+.logo img{
+  width: 20px;
+  margin-top: -7px;
+  margin-right: 30px;
+  border-width: 0;
+}
