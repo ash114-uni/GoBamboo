@@ -7,19 +7,21 @@
 html, body{
   height: 120%
 }
+
 *{
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
+
 .menu ul{
   display:inline-flex;
   margin: 50px;
   margin-bottom: 10px;
   outline-width: 3px;
   outline-color: #fff;
-
 }
+
 .menu ul li{
   display:inline-flex;
   padding: 20px;
@@ -32,13 +34,14 @@ html, body{
   outline-color: #fff;
   border-radius: 5px;
   padding:20px;
-
 }
+
 .logo img{
   width: 20px;
   margin-top: -7px;
   margin-right: 48px;
 }
+
 .banner{
   width: 80%;
   height: 70%;
@@ -47,10 +50,11 @@ html, body{
   position: absolute;
   color: #fff;
 }
+
 .app-text{
   width: 50%
-  float: left;
 }
+
 .app-text h1{
   font-size: 43px;
   width: 640px;
@@ -59,7 +63,6 @@ html, body{
   margin-top: 60px;
   color: #fff;
   float: right;
-
 }
 
 .app-text p{
@@ -78,11 +81,10 @@ html, body{
   margin-left: 40px;
   color: #fff;
 }
+
 .para img{
   margin-left: 40px;
   width: 30%
-  margin-left: 500px;
-  float: right;
 }
 
 .topnav {
@@ -90,6 +92,7 @@ html, body{
   background-color: #fff;
   float: right;
 }
+
 .topnav a {
   float: left;
   display: block;
@@ -101,9 +104,11 @@ html, body{
   border-bottom: 3px solid transparent;
   word-spacing: 50px;
 }
+
 .topnav a:hover{
   border-bottom: 3px solid #18ab29;
 }
+
 .topnav a.active{
-  border-bottom: 3px solid $18ab29;
+  border-bottom: 3px solid #18ab29;
 }
